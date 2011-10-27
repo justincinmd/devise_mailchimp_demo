@@ -1,0 +1,11 @@
+== Devise Mailchimp Demo
+
+This demo application shows the usage of devise_mailchimp with devise.  To get this running on your system, clone
+the repository, then create the database:
+
+  rake db:migrate
+
+Rename the config/initializers/devise_mailchimp.rb.example to config/initializers/devise_mailchimp.rb and update the
+configuration.  Start the server:
+
+  rails server
