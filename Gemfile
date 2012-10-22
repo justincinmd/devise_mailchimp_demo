@@ -8,7 +8,7 @@ gem 'rails', '3.2.8'
 gem 'sqlite3', '1.3.5'
 gem "devise", "~> 2.1.2"
 
-gem 'devise_mailchimp', :path => '../devise_mailchimp' # uncomment path for gem development
+gem 'devise_mailchimp' #, :path => '../devise_mailchimp' # uncomment path for gem development
 
 # gem 'delayed_job' # Uncomment this to test Delayed Job Integration
 
