@@ -1,10 +1,8 @@
 class CreateUsers < ActiveRecord::Migration
   def self.up
     create_table :users do |t|
-      t.database_authenticatable
-      t.lockable
-      t.trackable
-
+      t.string :email
+      t.string :encrypted_password
       t.timestamps
     end
   end

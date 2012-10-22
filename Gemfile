@@ -1,14 +1,14 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.10'
+gem 'rails', '3.2.8'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
-gem "devise", "~> 1.4.8"
+gem 'sqlite3', '1.3.5'
+gem "devise", "~> 2.1.2"
 
-gem 'devise_mailchimp' # , :path => '../devise_mailchimp' # uncomment path for gem development
+gem 'devise_mailchimp', :path => '../devise_mailchimp' # uncomment path for gem development
 
 # gem 'delayed_job' # Uncomment this to test Delayed Job Integration
 

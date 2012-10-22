@@ -1,3 +1,3 @@
 class User < ActiveRecord::Base
-  devise :database_authenticatable, :trackable, :timeoutable, :lockable, :registerable, :validatable, :mailchimp
+  devise :database_authenticatable, :timeoutable, :registerable, :validatable, :mailchimp
 end
